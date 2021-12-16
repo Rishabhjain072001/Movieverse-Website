@@ -1,0 +1,145 @@
+a.nav-header-main button{
+  width: 100px;
+  height:30px;
+  background-color: #282828;
+  border:none;
+  color:#fff;
+  font-family:arial;
+  font-weight:400;
+  cursor:pointer;
+  margin-bottom: 20px;
+}
+
+.Login body {font-family: Arial, Helvetica, sans-serif;}
+.Login {
+  margin-top:150px;
+  margin-left:450px;
+  border-radius: 25px;
+  border: 2px solid #282828;
+  padding: 40px; 
+  width: 550px;
+  height: 350px;  
+}
+
+.Login .section-default{
+	margin-left:130px;
+}
+/* Full-width input fields */
+.Login input {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.Login button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+}
+
+.Login button:hover {
+  opacity: 0.8;
+}
+
+
+.loginerror{
+  margin-left:10px;
+  color:red;
+  font-size:25px;
+
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 1150px) {
+.Login   {
+     margin-left:300px;
+     width: 500px;
+     height: 350px;  
+  }
+}
+
+@media screen and (max-width: 1000px) {
+.Login input {
+     width:100%;
+  }
+.Login button  {
+     width:100%;
+  }
+.Login .section-default{
+	margin-left:10px;
+}
+.Login   {
+     margin-left:300px;
+     width: 350px;
+     height: 350px;  
+  }
+}
+
+@media screen and (max-width: 850px) {
+.Login input {
+     width:100%;
+      
+  }
+.Login button  {
+     width:100%;
+     
+  }
+.Login   {
+     margin-left:100px;
+     width: 350px;
+     height: 350px;  
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 680px) {
+.Login input {
+     width:100%;
+      
+  }
+.Login button  {
+     width:100%;
+     
+  }
+.Login   {
+     margin-left:100px;
+     width: 250px;
+     height: 350px;  
+  }
+
+}
+
+p{
+  margin-top:-10px;
+}
+
+.arrow-left{
+ margin-left:-120px;
+ cursor:pointer;
+ color:black;
+}
+
+@media screen and (max-width: 1000px) {
+ .arrow-left{
+   margin-left:-30px;
+  }
+}
+
+.signup-link{
+ text-decoration: none;
+}
